@@ -1,5 +1,6 @@
 {"name":"ad",
 "localizedName":"advertise dustry",
 "version":"ad",
-"minGameVersion":136
+"minGameVersion":136,
+"hidden":true
 }
