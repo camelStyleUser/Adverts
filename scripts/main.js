@@ -29,7 +29,7 @@ cthr=Threads.thread(()=>{
 let counter=Time.time;
 for(let i=frameoff[cad];i<frameoff[cad]+framecount[cad];i++){
 let stri=new java.lang.String("ad-ad"+leftpad(cad,2,"0")+"-"+leftpad(i,4,"0"));
-Core.app.post(()=>{dia.cont.clearChildren();if(foundpopup){dia.cont.add("i remember you, forgiven one").row();};dia.cont.image(Core.atlas.find(stri));});
+Core.app.post(()=>{dia.cont.clearChildren();if(foundpopup){dia.cont.add("next time you boot your game click on 'going down the rabbithole' -").row();};dia.cont.image(Core.atlas.find(stri));});
 while(Time.time<counter+2){}
 counter=Time.time;
 }
