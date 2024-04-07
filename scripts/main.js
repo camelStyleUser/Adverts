@@ -41,6 +41,7 @@ if(!isadding){
  if(dia!=null){
   dia.hide();
   adcb();
+  dia=null;
  }
 }
 }
