@@ -52,7 +52,7 @@ Events.on(UnitDestroyEvent, event => {
   // display toast on top of screen when the unit was a player
   if(event.unit.isPlayer()){
     Core.app.post(()=>{
-    showad(1,()=>{});});
+    showad(1,()=>{if(Vars.player.team().cores().size>0){Vars.player.team().cores().get(0).items.add(Items.carbide,1);};});});
   }
 })
 Events.on(ClientLoadEvent,e=>{if(Vars.mods.locateMod("popup")!=null){foundpopup=true;}});
